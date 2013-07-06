@@ -23,7 +23,8 @@
             "charpool": "",
             "charpat": "luns",
             "inout": "in",
-            "direction": "right"
+            "direction": "right",
+            "nullchar": ""
         }, params);
 
         return this.each(function () {
@@ -101,7 +102,7 @@
                 for (i = 0; i < length; i++) {
                     if (pat[i] < 0) {
                         //none
-                        tmp[i] = ""
+                        tmp[i] = options.nullchar;
                     } else if (pat[i] < options.step) {
                         //shuffled
                         tmp[i] = randomChar()
