@@ -19,6 +19,7 @@ This plugin inspired from Martin Angelov's [shuffleLetters](http://tutorialzine.
 I extend it.
 
 [sample](http://rawgithub.com/cocu/misc-javascript/master/jquery/advShuffleLetters/sample.html)
+
 追加点(feature)
 - 変化する方向を左右、ランダムに拡張(Add effect direction left and random.)
 - アウトエフェクトを追加(Add out effect.)
