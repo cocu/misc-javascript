@@ -15,6 +15,6 @@ I'm happy if these scripts can help you.
 Martin Angelov氏の[shuffleLetters](http://tutorialzine.com/2011/09/shuffle-letters-effect-jquery/)
 に発想を得て、それを拡張したもの。
 
-[sample](./jquery/advShuffleLetters/sample.html")
+[sample](http://rawgithub.com/cocu/misc-javascript/master/jquery/advShuffleLetters/sample.html)
 
 
