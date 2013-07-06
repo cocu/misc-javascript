@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>advShuffleLetter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="jquery.advShuffleLetters.js"></script>
+</head>
+<body onload="$('#hl').advShuffleLetters()">
+<h1 id="hl">
+    click!
+</h1>
+<div onclick="$(this).advShuffleLetters()">noargument</div>
+<div onclick="$(this).advShuffleLetters({'direction':'left'})">direction:left</div>
+<div onclick="$(this).advShuffleLetters({'direction':'random'})">direction:random</div>
+<div onclick="$(this).advShuffleLetters({'inout':'out'})">inout:out</div>
+<div onclick="$(this).advShuffleLetters({'charpat':'l'})">charpat:lower</div>
+<div onclick="$(this).advShuffleLetters({'charpat':'u'})">charpat:upper</div>
+<div onclick="$(this).advShuffleLetters({'charpat':'n'})">charpat:number</div>
+<div onclick="$(this).advShuffleLetters({'charpat':'s'})">charpat:symbol</div>
+<div onclick="$(this).advShuffleLetters({'charpool':'hoge'})">charpool:"hoge"</div>
+<div onclick="$(this).advShuffleLetters({'charpool':'0123456789ABCDEF'})">charpool:"0123456789ABCDEF"</div>
+</body>
+</html>
